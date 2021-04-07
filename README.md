@@ -2,9 +2,10 @@
 
 # Scroll to top after add to cart
 ### put below code insize script tag in any .phtml that renders on catalog page
-`require(['jquery'],function($){
+`
+require(['jquery'],function($){
 
-                $(document).on('ajax:addToCart', function (event) {
+     $(document).on('ajax:addToCart', function (event) {
                 
                     setTimeout(function(){
                     
